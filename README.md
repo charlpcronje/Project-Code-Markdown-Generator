@@ -34,7 +34,7 @@ This project consists of a set of Python scripts designed to generate a Markdown
 
 - `config_loader.py`: Handles the loading of configuration settings from a JSON file.
 - `path_utils.py`: Provides utilities for path normalization and calculating directory depth.
-- `markdown_generator.py`: The main script for generating the Markdown document, incorporating all features listed above.
+- `main.py`: The main script for generating the Markdown document, incorporating all features listed above.
 
 ## Configuration
 
@@ -57,7 +57,7 @@ Configure the script using `config.json`:
 ## Usage
 
 1. Update `config.json` with the details of your project.
-2. Run `python markdown_generator.py`.
+2. Run `python main.py`.
 3. The Markdown document, structured with headings, indices, and file details, will be generated.
 
 ## Requirements
