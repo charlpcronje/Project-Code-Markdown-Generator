@@ -1,10 +1,10 @@
 {
-  "project_directory": "/path/to/your/project",
-  "output_markdown": "project_code.md",
+  "root_path": "/path/to/your/project",
+  "output_path": "project_code.md",
   "file_extensions": [".java", ".js", ".html", ".css"],
-  "exclude_directories": ["dir_to_exclude1", "dir_to_exclude2"],
+  "exclude_paths": ["dir_to_exclude1", "dir_to_exclude2"],
   "exclude_files": ["file_to_exclude1.js", "file_to_exclude2.css"],
-  "custom_headings": {
+  "custom_headings_depths": {
     "relative/path/to/specific/directory": 2,
     "relative/another/path": 3
   }

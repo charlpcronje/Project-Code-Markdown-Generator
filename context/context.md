@@ -18,10 +18,10 @@ Edit `config.json` to specify project details and custom heading levels for spec
 
 ```json
 {
-  "project_directory": "/path/to/your/project",
-  "output_markdown": "project_code.md",
+  "root_path": "/path/to/your/project",
+  "output_path": "project_code.md",
   "file_extensions": [".java", ".js", ".html", ".css"],
-  "custom_headings": {
+  "custom_headings_depths": {
     "relative/path/to/specific/directory": 2,
     "relative/another/path": 3
   }
